@@ -6,6 +6,7 @@ class Show < ActiveRecord::Base
 
   def Show::most_popular_show
     self.where('ratings')
+    binding.pry
   end
 
 
