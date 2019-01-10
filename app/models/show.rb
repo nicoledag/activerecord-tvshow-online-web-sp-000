@@ -26,6 +26,5 @@ class Show < ActiveRecord::Base
 
   def Show::shows_by_alphabetical_order
     self.order(:name)
-    binding.pry
   end
 end
