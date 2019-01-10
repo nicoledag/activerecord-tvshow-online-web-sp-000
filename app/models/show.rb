@@ -25,7 +25,7 @@ class Show < ActiveRecord::Base
   end
 
   def Show::shows_by_alphabetical_order
-    self.order(:created_at)
+    self.order(:name)
     binding.pry
   end
 end
